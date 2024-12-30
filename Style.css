@@ -1,0 +1,125 @@
+/*Style pour toute la page */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+/* barre de menu */
+header{
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   background: #ffff;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 1000;
+  box-shadow: 0 5px 10px rgba(0,0,0, 0.1);
+  padding: 0px 7%;
+  display: flex;
+}
+ header .logo img{ 
+    font-weight: bolder;
+    font-size: 25px;
+}
+header .navbar ul{
+    list-style: none;
+}
+header .navbar ul li{
+    position: relative;
+    float: left;
+
+}
+header .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color: #333;
+    display: block;
+}
+/* A propos */
+h1{
+   text-align: center;
+}
+.A2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img{
+    max-width: 50px;
+    margin-right: 20px;
+}
+.P1{
+    flex: 1;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+/* Nos Produits */
+h2{
+    text-align: center;
+}
+.A3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.A4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.P2::first-line{
+    color: chartreuse;
+    }
+    .P3::first-line{
+        color: chartreuse;
+        }
+        .P4::first-line{
+            color: chartreuse;
+            }
+.A5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.A6{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.P5::first-line{
+    color: chartreuse;
+    }
+    .P6::first-line{
+        color: chartreuse;
+        }
+        .P7::first-line{
+            color: chartreuse;
+            }
+            /* Notre équipe*/
+            h3{
+                text-align: center;
+            }
+            .A7{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .A8{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }  
+
