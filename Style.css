@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
+    background-color: rgba(128, 128, 128, 0.1);
 }
 /* barre de menu */
 header{
@@ -12,13 +13,16 @@ header{
    top: 0;
    left: 0;
    right: 0;
-   background: #ffff;
+   background:#ffff;
    justify-content: space-between;
    align-items: center;
    z-index: 1000;
   box-shadow: 0 5px 10px rgba(0,0,0, 0.1);
   padding: 0px 7%;
   display: flex;
+}
+.menu{
+    color: #333;
 }
  header .logo img{ 
     font-weight: bolder;
@@ -81,13 +85,13 @@ h2{
     justify-content: space-between;
 }
 .P2::first-line{
-    color: chartreuse;
+    color:#00ff37;
     }
     .P3::first-line{
-        color: chartreuse;
+        color: #00ff37;
         }
         .P4::first-line{
-            color: chartreuse;
+            color:#00ff37;
             }
 .A5{
     display: flex;
@@ -100,13 +104,13 @@ h2{
     justify-content: space-between;
 }
 .P5::first-line{
-    color: chartreuse;
+    color:#00ff37;
     }
     .P6::first-line{
-        color: chartreuse;
+        color:#00ff37;
         }
         .P7::first-line{
-            color: chartreuse;
+            color: #00ff37;
             }
             /* Notre équipe*/
             h3{
@@ -121,5 +125,35 @@ h2{
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-            }  
+            } 
+            /* Contact */
+            h4{
+                text-align: center;
+            }
+            .A9{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                color: #333;
+            }
+            /* footer */  
+            footer{
+                background-color: #333;
+            }
+            .A10{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .A11{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                color: #ffff;
+            }
+            .P8{
+                color: #ffff;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+            }
+            
 
