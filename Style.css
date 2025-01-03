@@ -21,12 +21,12 @@ header{
   padding: 0px 7%;
   display: flex;
 }
-.menu{
-    color: #333;
-}
  header .logo img{ 
     font-weight: bolder;
     font-size: 25px;
+}
+.menu{
+    color: #333;
 }
 header .navbar ul{
     list-style: none;
@@ -42,6 +42,10 @@ header .navbar ul li a{
     color: #333;
     display: block;
 }
+/* Accueil */
+.A1{
+    width: 100%;
+}
 /* A propos */
 h1{
    text-align: center;
@@ -52,8 +56,8 @@ h1{
     justify-content: space-between;
 }
 .img{
-    max-width: 50px;
-    margin-right: 20px;
+    max-width: 40px;
+    margin-right: 10px;
 }
 .P1{
     flex: 1;
@@ -144,16 +148,13 @@ h2{
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-            }
-            .A11{
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
                 color: #ffff;
             }
             .P8{
                 color: #ffff;
-                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-family:cursive;
             }
+            /* responsive */
+          
             
-
+          
