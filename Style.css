@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
-    background-color: rgba(128, 128, 128, 0.1);
+    background-color:  rgba(128, 128, 128, 0.1);
 }
 /* barre de menu */
 header{
@@ -43,20 +43,21 @@ header .navbar ul li a{
     display: block;
 }
 /* Accueil */
-.A1{
+.A1 img{
     width: 100%;
 }
 /* A propos */
 h1{
    text-align: center;
 }
+/*
 .A2{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.img{
-    max-width: 40px;
+}*/
+.A2 img{
+    max-width: 100%;
     margin-right: 10px;
 }
 .P1{
@@ -116,7 +117,7 @@ h2{
         .P7::first-line{
             color: #00ff37;
             }
-            /* Notre équipe*/
+/* Notre équipe*/
             h3{
                 text-align: center;
             }
@@ -130,7 +131,7 @@ h2{
                 align-items: center;
                 justify-content: space-between;
             } 
-            /* Contact */
+ /* Contact */
             h4{
                 text-align: center;
             }
@@ -140,7 +141,7 @@ h2{
                 justify-content: space-between;
                 color: #333;
             }
-            /* footer */  
+ /* footer */  
             footer{
                 background-color: #333;
             }
@@ -154,7 +155,6 @@ h2{
                 color: #ffff;
                 font-family:cursive;
             }
-            /* responsive */
-          
-            
+ /* responsive */
+           
           
