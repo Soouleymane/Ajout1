@@ -1,6 +1,6 @@
 /*Style pour toute la page */
 *{
-    margin: 0;
+    margin:  1px;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
@@ -50,14 +50,13 @@ header .navbar ul li a{
 h1{
    text-align: center;
 }
-/*
 .A2{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}*/
+}
 .A2 img{
-    max-width: 100%;
+    max-width: 85%;
     margin-right: 10px;
 }
 .P1{
@@ -117,6 +116,9 @@ h2{
         .P7::first-line{
             color: #00ff37;
             }
+video{
+  
+}            
 /* Notre équipe*/
             h3{
                 text-align: center;
