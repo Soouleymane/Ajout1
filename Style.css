@@ -192,6 +192,22 @@ h2
       color: #ffff;
       font-family:cursive;
 }
- /* responsive */   
+ /* responsive */
+ @media screen and(max-width:700px)
+ {
+    header
+    {
+        padding: 10px;
+    }
+    .A1 img
+    {
+    width: 100%;
+}
+    .P1
+{
+    width: 50%;
+}
+
+ }   
            
           
