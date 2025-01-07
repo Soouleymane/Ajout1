@@ -8,7 +8,8 @@
     background-color:  rgba(128, 128, 128, 0.1);
 }
 /* barre de menu */
-header{
+header
+{
    position: fixed;
    top: 0;
    left: 0;
@@ -21,45 +22,55 @@ header{
   padding: 0px 7%;
   display: flex;
 }
- header .logo img{ 
+ header .logo img
+ { 
     font-weight: bolder;
     font-size: 25px;
 }
-.menu{
+.menu
+{
     color: #333;
 }
-header .navbar ul{
+header .navbar ul
+{
     list-style: none;
 }
-header .navbar ul li{
+header .navbar ul li
+{
     position: relative;
     float: left;
 
 }
-header .navbar ul li a{
+header .navbar ul li a
+{
     font-size: 20px;
     padding: 20px;
     color: #333;
     display: block;
 }
 /* Accueil */
-.A1 img{
+.A1 img
+{
     width: 100%;
 }
 /* A propos */
-h1{
+h1
+{
    text-align: center;
 }
-.A2{
+.A2
+{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.A2 img{
+.A2 img
+{
     max-width: 85%;
     margin-right: 10px;
 }
-.P1{
+.P1
+{
     flex: 1;
     animation-duration: 3s;
     animation-name: slidein;
@@ -75,55 +86,73 @@ h1{
     }
 }
 /* Nos Produits */
-h2{
+h2
+{
     text-align: center;
 }
-.A3{
+.A3
+{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.A4{
+.A4
+{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.P2::first-line{
+.P2::first-line
+{
     color:#00ff37;
     }
-    .P3::first-line{
+    .P3::first-line
+    {
         color: #00ff37;
-        }
-        .P4::first-line{
-            color:#00ff37;
-            }
-.A5{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.A6{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.P5::first-line{
-    color:#00ff37;
+       
     }
-    .P6::first-line{
+        .P4::first-line
+        {
+            color:#00ff37;
+         }
+.A5
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.A6
+
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.P5::first-line
+{
+    color:#00ff37;
+}
+    .P6::first-line
+    {
         color:#00ff37;
-        }
-        .P7::first-line{
+    }
+        .P7::first-line
+        {
             color: #00ff37;
-            }
-video{
-  
+         }
+.video
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }            
 /* Notre équipe*/
-            h3{
+            h3
+            {
                 text-align: center;
             }
-            .A7{
+            .A7
+            {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
@@ -134,29 +163,35 @@ video{
                 justify-content: space-between;
             } 
  /* Contact */
-            h4{
+            h4
+            
+            {
                 text-align: center;
             }
-            .A9{
+            .A9
+            {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 color: #333;
-            }
+             }
  /* footer */  
-            footer{
-                background-color: #333;
-            }
-            .A10{
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                color: #ffff;
-            }
-            .P8{
-                color: #ffff;
-                font-family:cursive;
-            }
- /* responsive */
+ footer
+{
+       background-color: #333;
+}
+.A10
+ {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #ffff;
+}
+.P8
+{
+      color: #ffff;
+      font-family:cursive;
+}
+ /* responsive */   
            
           
